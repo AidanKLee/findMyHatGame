@@ -184,7 +184,7 @@ class Field {
       console.log('Invalid Move');
     };
   };
-
+ 
   // can move
   canMove(isY, isPlus) {
     if (isY && isPlus) {
@@ -227,6 +227,7 @@ class Field {
       let levelComplete = false;
       this.generateField(customHeight, customWidth, this.level);
       if (this.fieldIsSolvable() === true) {
+        console.log('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
         console.log('Level ' + level);
         while (!levelComplete) {
             this.print();
